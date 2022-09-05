@@ -1,0 +1,21 @@
+{
+    "name": "VK QR",
+    "version": "1.0",
+    "description": "demo",
+    "manifest_version":2,
+    "browser_action":{
+        "default_popup":"demo.html",
+        "default_icon":"logo.png"
+    },
+    "background": {
+        "service_worker": "Content.js"
+      },
+    "action":{}
+    ,
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting",
+        "<all_urls>"
+    ]
+}

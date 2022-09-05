@@ -1,2 +1,3 @@
-# QRCODE_Chrome_extenstion
-This chrome extension will make sharing web link of website more easier by using QR code.
+# What it does
+It will create a qr code for the website in the tab where you clicked the extension
+
